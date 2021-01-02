@@ -64,7 +64,7 @@ class HomeController extends Controller
 
         $response = curl_exec($ch);
 
-        dd($response);
+        return view('home');
     }
 }
 
